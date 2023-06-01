@@ -1,0 +1,10 @@
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" version="2.1">
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>2.2</jsp-version>
+  <short-name>JSPTag</short-name>
+  <tag>
+	<name>welcomeBody</name>
+	<tag-class>ch19.WelcomeBodyTag</tag-class>
+	<body-content>scriptless</body-content>
+  </tag>
+</taglib>
