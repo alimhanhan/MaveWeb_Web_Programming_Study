@@ -1,0 +1,19 @@
+-Dcatalina.base="C:\Jsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp1" -Dcatalina.home="C:\Jsp\Tomcat 9.0" -Dwtp.deploy="C:\Jsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps" -Djava.endorsed.dirs="C:\Jsp\Tomcat 9.0\endorsed"
+
+-Dcatalina.base="C:\Jsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0" -Dcatalina.home="C:\Jsp\Tomcat 9.0" -Dwtp.deploy="C:\Jsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps"
+
+-Djava.endorsed.dirs=C:\Jsp\Tomcat 9.0\endorsed is not supported. Endorsed standards and standalone APIs
+in modular form will be supported via the concept of upgradeable modules.
+
+endorsed : - JDK자체에 포함된 것이 아닌 설치한 라이브러리의 것을 로딩하려 할 때 사용
+
+http://download.eclipse.org/webtools/repository/oxygen/
+WTP 3.9.4
+
+https://sarc.io/index.php/java/42-java-endorsed-dirs
+http://uiandwe.tistory.com/488
+
+Version: Oxygen.3a Release (4.7.3a)
+
+https://stackoverflow.com/questions/50085750/apache-tomcat-9-x-not-working-with-eclipse-java-10-0-1/50094645#50094645
+https://bugs.eclipse.org/bugs/show_bug.cgi?id=533162
